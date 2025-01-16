@@ -3,6 +3,7 @@ from colorama import Fore, Style
 class Staff:
 
     def __init__(self, staff_name, staff_surname, staff_age, staff_rank):
+        
         self.__staff_name = staff_name
         self.__staff_surname = staff_surname
         self.__staff_age = staff_age
