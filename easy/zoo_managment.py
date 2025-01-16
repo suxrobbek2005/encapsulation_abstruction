@@ -53,7 +53,7 @@ while True:
     if choise_menu == 1:
 
         kind = input(f"{Style.DIM},{Fore.RED}Hayvoning turini kiriting{Style.RESET_ALL} ").title()
-        age = int(input(f"{Style.DIM},{Fore.RED}Hayvoning turini kiriting{Style.RESET_ALL} "))
+        age = int(input(f"{Style.DIM},{Fore.RED}Hayvoning yoshini kiriting{Style.RESET_ALL} "))
         hunt = input(f"{Style.DIM},{Fore.RED}Hayvoning ov qilish turi kiriting{Style.RESET_ALL} ").capitalize()
 
         animals.append(Herbivore(kind, age, hunt))
@@ -63,7 +63,7 @@ while True:
     elif choise_menu == 2:
 
         kind = input(f"{Style.DIM},{Fore.RED}Hayvoning turini kiriting{Style.RESET_ALL} ").title()
-        age = int(input(f"{Style.DIM},{Fore.RED}Hayvoning turini kiriting{Style.RESET_ALL} "))
+        age = int(input(f"{Style.DIM},{Fore.RED}Hayvoning yoshini kiriting{Style.RESET_ALL} "))
         feed = input(f"{Style.DIM},{Fore.RED}Hayvoning ov qilish turi kiriting{Style.RESET_ALL} ").capitalize()
 
         animals.append(Herbivore(kind, age, feed))
@@ -79,12 +79,17 @@ while True:
         else:
             print(f"{Fore.LIGHTMAGENTA_EX}== Barcha hayvonlar =={Style.RESET_ALL}")
 
-            for hayvon in animals:
-                print(hayvon.umumiy_malumot())
-                if isinstance(hayvon, Beast()):
-                        print(hayvon, Herbivore())
-                elif isinstance(hayvon, hunt):
-                        print(hayvon, feed)
+            for animal in animals:
+
+                print(animal.general_information())
+
+                if isinstance(animal, Beast):
+                        
+                        print(animal.Hunt)
+
+                elif isinstance(animal, Herbivore):
+                        
+                        print(animal.Feeds)
     
     elif choise_menu == 4:
 
