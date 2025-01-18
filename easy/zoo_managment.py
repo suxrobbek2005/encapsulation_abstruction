@@ -98,6 +98,7 @@ while True:
 
     else:
         print(f"{Fore.RED}Noto'g'ri tanlov! Qayta urinib ko'ring.{Style.RESET_ALL}")
+        
 
 
 

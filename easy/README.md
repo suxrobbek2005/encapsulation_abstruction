@@ -9,7 +9,7 @@ Oson
 1- masla  
  "Xodim ma’lumotlari" klassini yaratish
 Shart: Xodim nomli klass yarating. Bu klassda xodimning ism-familiyasi, yoshi, va lavozimi haqida ma’lumot saqlansin.
-Qoidalangan: Ma’lumotlarni o‘zgartirish uchun maxsus metodlar (getter va setter) yozing. Lavozimni o‘zgartirganda, yangi lavozim bo‘sh emasligini tekshiring.
+Qoidalangan: Ma’lumotlarni o‘zgartirish uchun maxsus metodlar (getter va setter) yozing. Lavozimni o‘zgartirganda, yangi lavozim bo‘sh emasligini tekshiring.  
 
 
 
@@ -19,11 +19,7 @@ Qoidalangan: Ma’lumotlarni o‘zgartirish uchun maxsus metodlar (getter va set
 "Telefon" klassi
 Shart: 
 Telefon klassini yarating, unda ism va telefon raqami juftligini saqlang.
-Qoidalangan: Faqatgina metodlar orqali yangi kontakt qo‘shish va mavjud kontaktni olish imkoniyatini bering.
-
-
-
-3 -  masala  
+Qoidalangan: Faqatgina metodlar orqali yangi kontakt qo‘shish va mavjud kontaktni olish imkoniyatini ber
 "Hayvonot bog‘i boshqaruvi"
 Shart:
  Hayvon bazaviy klassini yarating, unda umumiy atributlar bo‘lsin (turi, yoshi). Yirtqich va O‘txo‘r klasslarini voris qilib, o‘ziga xos atributlar va metodlar qo‘shing.
@@ -33,7 +29,7 @@ Elementlar:
 Nom (private)
 Marka (private)
 Narx (private)
-Shart: Getter va Setter yordamida narxni o‘zgartiring. Agar narx manfiy bo‘lsa, xato xabar chiqaring.
+Shart: Getter va Setter yordamida narxni ozgartiring. Agar narx manfiy bolsa, xato xabar chiqaring.
 
 
 
@@ -153,7 +149,7 @@ Quyidagi metodlarni yozing:
 apply_discount(percent) — narxini percent ga pasaytirsin.
 Agar batareya vaqti 5 soatdan kam bo‘lsa, narxini 10% pasaytiruvchi metod qo‘shing.
 
-5  -  masla 
+5  -  masla                
 
 Developer Klassini Yaratish
 1. Developer nomli klassni yarating. U quyidagi atributlarga ega bo‘lsin:
